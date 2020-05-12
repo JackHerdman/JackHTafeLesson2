@@ -14,19 +14,17 @@
 // //2. Write a console app that writes even numbers from 2 to 8 (inclusive) to the console
 // //   (hint, you will need to not use the increment operator) 
 
-// //NOTE: i wasnt able to work out without increment
-// for(let i = 0; i < 10; i++){
-//     if(i % 2 != 0){
-//         continue;
-//     }
+//for loop
+// for(let i = 2; i < 10; i+=2){        
 //     console.log(i);
 // }
-// while
+
+//while loop
 // let i = 0
 // while (i < 10){
 //     if (i % 2 ==0){
 //         console.log(i);
-//     } i++
+//     } i+=2
 // }
 
 // //3. Write a console app that prints the elements of an array in reverse.
