@@ -29,9 +29,12 @@ async function Program(){
     let sports = [];
     for (let i = 0; i < 5; i++) {
         let userInput = await askQuestion ("name a sport: ");
-        sports.push(userInput)
+        if(userInput == ""){
+            break;
+        }        
+        sports.push(userInput);
     }
-    console.log(sports)
+    console.log(sports);
 }
   
 
