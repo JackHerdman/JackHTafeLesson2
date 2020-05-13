@@ -17,12 +17,21 @@ function askQuestion(question){
 
 async function Program(){
     // Your Code Goes Here...
-    let sports = ["Tennis", "Soccer", "Rugby"];
-    console.log(sports);
-    let userInput1 = await askQuestion("Name another sport: ");
-    sports.push(userInput1);
-    console.log(sports);
-    
+  
+  //single entry added to an array - My work
+    // let sports = ["Tennis", "Soccer", "Rugby"];
+    // console.log(sports);
+    // let userInput1 = await askQuestion("Name another sport: ");
+    // sports.push(userInput1);
+    // console.log(sports);
+
+//looped entry to add 5 to an array - Lukes work
+    let sports = [];
+    for (let i = 0; i < 5; i++) {
+        let userInput = await askQuestion ("name a sport: ");
+        sports.push(userInput)
+    }
+    console.log(sports)
 }
   
 
