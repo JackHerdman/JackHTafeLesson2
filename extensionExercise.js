@@ -28,11 +28,12 @@ for (let i = 0; i < myNumbers.length; i++) {
         }
     }
     if (found == false){
-        foundNunbers.push(number);
+        foundNumbers.push(number);
         foundNumberValues.push(1);
     }
+    
 }
 
-for(let i = 0; i < foundNunbers.length; i++) {
+for(let i = 0; i < foundNumbers.length; i++) {
     console.log(`${foundNumbers[i]} appears in the list ${foundNumberValues[i]} times`);
 }
